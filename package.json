@@ -1,0 +1,14 @@
+{
+  "name": "breathe",
+  "version": "1.0.0",
+  "description": "A desktop app to do breathe exercises",
+  "main": "index.js",
+  "author": "Nicodemos234",
+  "license": "MIT",
+  "scripts": {
+  	"start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^19.0.8"
+  }
+}
