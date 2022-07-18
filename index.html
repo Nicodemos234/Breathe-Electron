@@ -2,17 +2,23 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <title>Hello World!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="counter">
-      3
+    <div class="wrapper">
+      <img src="./leaf.svg" />
+      <div id="counter">
+        3
+      </div>
+      <div id="step">Breathe in</div>
+      <button id="start">
+        Start
+      </button>
     </div>
-    <div id="step">Breathe in</div>
-    <button id="start">
-      Start
-    </button>
   </body>
 </html>

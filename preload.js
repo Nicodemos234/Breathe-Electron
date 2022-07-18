@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
         breatheOut--;
         counterDom.innerHTML = breatheOut + 1;
         stepDom.innerHTML = 'Breathe out'; 
-        if(breatheOut === 0) {
+        if(breatheOut < 0) {
           breatheIn = 3;
           hold = 3;
           breatheOut = 3;
